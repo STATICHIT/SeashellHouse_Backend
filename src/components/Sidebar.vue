@@ -56,11 +56,11 @@ import { useRoute } from "vue-router";
 export default {
   setup() {
     const items = [
-      // {
-      //   icon: "el-icon-lx-upload",
-      //   index: "/test",
-      //   title: "上传图片test",
-      // },
+      {
+        icon: "el-icon-lx-upload",
+        index: "/test",
+        title: "上传图片test",
+      },
       {
         icon: "el-icon-lx-crownfill",
         index: "/dashboard",
@@ -71,11 +71,11 @@ export default {
       //   index: "/table",
       //   title: "基础表格",
       // },
-      {
-        icon: "el-icon-lx-copy",
-        index: "/tabs",
-        title: "用户消息",
-      },
+      // {
+      //   icon: "el-icon-lx-copy",
+      //   index: "/tabs",
+      //   title: "用户消息",
+      // },
       {
         icon: "el-icon-lx-friend",
         index: "9",
@@ -125,6 +125,16 @@ export default {
         icon: "el-icon-lx-addressbook",
         index: "/bookTable",
         title: "预约管理",
+      },
+      {
+        icon: "el-icon-lx-global",
+        index: "/entrustTable",
+        title: "委托管理",
+      },
+      {
+        icon: "el-icon-lx-shop",
+        index: "/homepage",
+        title: "首页推荐",
       },
       // {
       //   icon: "el-icon-lx-calendar",

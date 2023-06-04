@@ -160,6 +160,14 @@ const routes = [
         component: () => import('../views/WorkerTable.vue')
       },
       {
+        path: '/entrustTable',
+        name: 'entrustTable',
+        meta: {
+          title: '委托管理'
+        },
+        component: () => import('../views/EntrustTable.vue')
+      },
+      {
         path: '/secondTable',
         name: 'secondTable',
         meta: {
@@ -191,6 +199,15 @@ const routes = [
           permission:true
         },
         component: () => import('../views/AddWorker.vue')
+      },
+      {
+        path: '/homepage',
+        name: 'homepage',
+        meta: {
+          title: '首页推荐设置',
+          permission:true
+        },
+        component: () => import('../views/Homepage.vue')
       },
     ]
   }, {

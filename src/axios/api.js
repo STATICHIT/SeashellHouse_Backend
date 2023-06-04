@@ -69,6 +69,11 @@ apiFun.getAllBooks = params => {
   return http.get('/books/'+params.a1+'/'+params.a2+'?'+params.other)
 }
 
+//获取所有委托
+apiFun.getAllEntrusts = params => {
+  return http.get('/entrusts/'+params.a1+'/'+params.a2+'?'+params.other)
+}
+
 //获取我的关注楼盘
 apiFun.getAllFond = params =>{
   return http.get('/tools/'+params.id)
@@ -149,4 +154,15 @@ apiFun.refund = params =>{
 apiFun.cancelBooks = params =>{
   return http.post('/books/cancelBooks',params)
 } 
+
+//通过或否决委托
+apiFun.dealEntrust = params =>{
+  return http.post('/entrusts/dealEntrust',params)
+} 
+
+//获取首页图片推荐表
+apiFun.getHomepageImg = () =>{
+  return http.get("/tools/homepage")
+}
+
 export default apiFun;

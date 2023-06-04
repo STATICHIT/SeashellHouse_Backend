@@ -30,8 +30,8 @@
                             <div class="grid-content grid-con-1">
                                 <i class="el-icon-user-solid grid-con-icon"></i>
                                 <div class="grid-cont-right">
-                                    <div class="grid-num">2315</div>
-                                    <div>用户访问量</div>
+                                    <div class="grid-num">20</div>
+                                    <div>总用户量</div>
                                 </div>
                             </div>
                         </el-card>
@@ -41,8 +41,8 @@
                             <div class="grid-content grid-con-2">
                                 <i class="el-icon-message-solid grid-con-icon"></i>
                                 <div class="grid-cont-right">
-                                    <div class="grid-num">321</div>
-                                    <div>系统消息</div>
+                                    <div class="grid-num">15</div>
+                                    <div>待处理委托</div>
                                 </div>
                             </div>
                         </el-card>
@@ -52,8 +52,8 @@
                             <div class="grid-content grid-con-3">
                                 <i class="el-icon-s-goods grid-con-icon"></i>
                                 <div class="grid-cont-right">
-                                    <div class="grid-num">5000</div>
-                                    <div>数量</div>
+                                    <div class="grid-num">86</div>
+                                    <div>房源数量</div>
                                 </div>
                             </div>
                         </el-card>
