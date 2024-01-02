@@ -56,11 +56,11 @@ import { useRoute } from "vue-router";
 export default {
   setup() {
     const items = [
-      {
-        icon: "el-icon-lx-upload",
-        index: "/test",
-        title: "上传图片test",
-      },
+      // {
+      //   icon: "el-icon-lx-upload",
+      //   index: "/test",
+      //   title: "上传图片test",
+      // },
       {
         icon: "el-icon-lx-crownfill",
         index: "/dashboard",

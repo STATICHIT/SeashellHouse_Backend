@@ -38,7 +38,7 @@
                 placeholder="请输入房源介绍标题"
                 maxlength="20"
                 show-word-limit
-                v-model="form.name"
+                v-model="form.title"
               ></el-input>
             </el-form-item>
             <el-form-item label="所在城市" prop="city">

@@ -1,15 +1,16 @@
+<!-- 预约管理 -->
 <template>
   <div>
     <div>
       <div class="crumbs">
         <el-breadcrumb separator="/">
           <el-breadcrumb-item>
-            <i class="el-icon-lx-cascades"></i> 用户管理
+            <i class="el-icon-lx-cascades"></i> 预约管理
           </el-breadcrumb-item>
         </el-breadcrumb>
       </div>
       <el-table :data="tableData" style="width: 100%">
-        <el-table-column fixed prop="id" label="账号" width="100" />
+        <el-table-column fixed prop="id" label="房屋编号" width="100" />
         <el-table-column prop="img" label="房屋图片" width="240">
           <template #default="scope">
             <img :src="scope.row.img" width="150" height="110" />

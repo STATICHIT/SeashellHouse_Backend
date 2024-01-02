@@ -1,3 +1,4 @@
+<!-- 委托管理 -->
 <template>
   <div>
     <div>
@@ -5,7 +6,7 @@
         <div class="crumbs">
           <el-breadcrumb separator="/">
             <el-breadcrumb-item>
-              <i class="el-icon-lx-cascades"></i> 用户管理
+              <i class="el-icon-lx-cascades"></i> 委托管理
             </el-breadcrumb-item>
           </el-breadcrumb>
         </div>
